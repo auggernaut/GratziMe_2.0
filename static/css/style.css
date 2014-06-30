@@ -1267,7 +1267,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-4 .features > [class*="col-sm-"] {
   position: relative;
-  padding-top: 180px;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 .content-4 .features > [class*="col-sm-"] > img:first-child {
@@ -1575,130 +1575,95 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-transform: none;
 }
 /**
- * Copntact 1 stylesheet  
+ * Copntact 4 stylesheet
  * */
-.contacts-1 {
-  padding-top: 110px;
-  padding-bottom: 110px;
+.contacts-4 {
+    background: #34495e url('../../startup/common-files/img/map.jpg') 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #bdc3c7;
+    text-align: right;
+    padding-top: 175px;
+    padding-bottom: 180px;
 }
-.contacts-1 h3 {
-  font-size: 30px;
-  margin: 0 0 60px;
-  font-weight: 300;
+.contacts-4 h3 {
+    font-size: 30px;
+    margin: 0 0 12px;
+    color: #fff;
+    font-weight: 300px;
 }
-@media (max-width: 480px) {
-  .contacts-1 h3 {
-    font-size: 26px;
-    margin: 0 0 30px;
-  }
+.contacts-4 p {
+    font-size: 16px;
+    line-height: 1.6;
 }
-.contacts-1 h6,
-.contacts-1 .h6 {
-  margin: 0 0 12px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  text-transform: none;
+.contacts-4 a {
+    color: #1abc9c;
 }
-.contacts-1 label.h6 {
-  margin-bottom: 18px;
+.contacts-4 a:hover,
+.contacts-4 a:focus,
+.contacts-4 a.active {
+    color: #15967d;
 }
-.contacts-1 label.h6 {
-  margin-bottom: 18px;
-}
-.contacts-1 p {
-  font-size: 16px;
-  line-height: 1.6;
-}
-.contacts-1 b {
-  font-weight: 700;
-}
-.contacts-1 a {
-  color: #1abc9c;
-}
-.contacts-1 a:hover,
-.contacts-1 a:focus,
-.contacts-1 a.active {
-  color: #15967d;
-}
-.contacts-1 form {
-  margin: 0;
-}
-.contacts-1 form input,
-.contacts-1 form textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-  margin-bottom: 29px;
-  border-color: #ebedee;
-  color: #7f8c8d;
-  font-size: 17px;
-  line-height: 22px;
-}
-.contacts-1 form input:focus,
-.contacts-1 form textarea:focus {
-  border-color: #1abc9c;
-}
-.contacts-1 form input {
-  height: 45px;
-}
-.contacts-1 form label {
-  margin-bottom: 18px;
-}
-.contacts-1 form .btn {
-  margin-top: 7px;
-  min-width: 150px;
-}
-.contacts-1 form .btn [class*="fui-"] {
-  font-size: 24px;
-}
-.contacts-1 form .btn.btn-primary:hover,
-.contacts-1 form .btn.btn-primary:focus {
-  background-color: #e74c3c;
-}
-.contacts-1 form .btn.btn-primary:active,
-.contacts-1 form .btn.btn-primary.active {
-  background-color: #c44133;
-}
-.contacts-1 .additional {
-  margin-bottom: 45px;
-}
-.contacts-1 .phone {
-  font-size: 13px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 2px;
-  line-height: 1.2;
-  color: #95a5a6;
-}
-.contacts-1 .phone big {
-  display: block;
-  font-size: 46px;
-  letter-spacing: normal;
-  white-space: nowrap;
-  color: #1abc9c;
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  .contacts-1 .phone big {
-    font-size: 32px;
-  }
+.contacts-4 .content {
+    margin: 0 80px;
 }
 @media (max-width: 767px) {
-  .contacts-1 > .container > .row > * + * {
-    margin-top: 55px;
-  }
+    .contacts-4 .content {
+        margin: 0;
+    }
+}
+.contacts-4 .social-btns {
+    white-space: nowrap;
+    margin-bottom: 35px;
+}
+.contacts-4 .social-btns > * {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 30px;
+    width: 30px;
+    height: 38px;
+    overflow: hidden;
+    text-align: center;
+    color: #1abc9c;
+}
+.contacts-4 .social-btns > *:first-child {
+    margin-left: 0;
+}
+.contacts-4 .social-btns > * > * {
+    display: block;
+    position: relative;
+    -webkit-transition: 0.25s top;
+    -moz-transition: 0.25s top;
+    -o-transition: 0.25s top;
+    transition: 0.25s top;
+}
+.contacts-4 .social-btns > * > *:first-child {
+    color: #fff;
+}
+.contacts-4 .social-btns > *:hover > * {
+    top: -100%;
+}
+.contacts-4 .links {
+    margin: 35px 0 0;
+    font-size: 47px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    word-break: break-all;
+}
+.contacts-4 .links a {
+    padding-bottom: 3px;
+    color: #14ddb3;
+    border-bottom: 2px solid;
+}
+.contacts-4 .links a:hover,
+.contacts-4 .links a:focus,
+.contacts-4 .links a.active {
+    color: #10b18f;
 }
 @media (max-width: 480px) {
-  .contacts-1 form {
-    margin-bottom: 80px;
-  }
-  .contacts-1 form label {
-    margin-bottom: 0px;
-  }
-  .contacts-1 .phone big {
-    font-size: 40px;
-  }
+    .contacts-4 .links a {
+        font-size: 26px;
+    }
 }
