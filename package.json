@@ -1,0 +1,19 @@
+{
+  "name": "pegg",
+  "version": "0.0.1",
+  "description": "Gratzi.me website",
+  "author": "Augustin Bralley",
+  "homepage": "http://www.gratzi.me",
+  "keywords": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auggernaut/GratziMe_2.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "express": "^4.4.5",
+    "logfmt": "^1.1.2"
+  }
+}
